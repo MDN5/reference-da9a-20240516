@@ -1,0 +1,22 @@
+_type: prompt
+input_types: {}
+input_variables:
+- Transcript
+metadata: null
+name: null
+output_parser: null
+partial_variables: {}
+tags: null
+template: 'Please summarize the following text, capturing the key points and main
+  concerns expressed in less than 10 words:
+
+
+  {Transcript}
+
+
+  Make sure to include relevant details, such as symptoms, background information,
+  current situations, and any specific requests or questions posed.
+
+  '
+template_format: f-string
+validate_template: false
