@@ -1,0 +1,8 @@
+api:
+  active: OpenAI  # Change to "Gemini" to use Gemini
+  keys:
+    openai: YOUR_OPENAI_API_KEY
+    google: YOUR_GOOGLE_API_KEY
+models:
+  openai: gpt-4-turbo
+  google: gemini-pro
